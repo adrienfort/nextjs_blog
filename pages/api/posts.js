@@ -1,5 +1,5 @@
 import { posts } from './resources'
-let id = 0;
+let id = posts.length + 1;
 
 export default (req, res) => {
     const { method } = req;
